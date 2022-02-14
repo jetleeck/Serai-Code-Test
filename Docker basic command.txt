@@ -4,6 +4,7 @@ build images
 	docker build -t IMAGE_NAME .
 
 list images
+	docker images
 
 construct container
 	docker run IMAGE_NAME/ ID
