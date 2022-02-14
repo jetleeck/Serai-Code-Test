@@ -1,0 +1,28 @@
+Docker basic command
+
+build images
+	docker build -t IMAGE_NAME .
+
+list images
+
+construct container
+	docker run IMAGE_NAME/ ID
+	param:
+		-name: name the container
+		-rm: Automatically remove the container when it exits
+		
+stop a container:
+	docker stop CONTAINER_NAME/ ID
+	
+list container
+	running container: docker ps 
+	param:
+		-a: list all
+	
+delete container
+	docker rm IMAGE_NAME/ ID
+	
+delete image
+	docker rmi IMAGE_NAME/ ID
+
+

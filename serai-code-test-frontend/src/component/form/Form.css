@@ -1,0 +1,22 @@
+form {
+  padding: 15px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+form > div, .fieldWrapper > div  {
+  margin-bottom: 15px;
+}
+
+.field:last-child {
+  margin-bottom: 0px;
+}
+
+.inputField {
+  min-width: 300px !important;
+}
+
+.fieldWrapper {
+  width: calc(50% - 7.5px);
+  display: inline-block;
+}
